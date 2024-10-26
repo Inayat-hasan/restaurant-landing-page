@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47"
+  },
+  "name": "first-project",
+  "version": "1.0.0",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./styles.css -o ./styles-output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

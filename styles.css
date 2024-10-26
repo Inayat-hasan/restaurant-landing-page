@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main-1 {
+  grid-template-areas:
+    "image text"
+    "cards cards";
+}
+#main-1 #img {
+  grid-area: image;
+}
+#main-1 #text {
+  grid-area: text;
+}
+#main-1 #cards {
+  grid-area: cards;
+}
+#main-2 {
+  grid-template-areas:
+    "first first second third"
+    "first first second fourth"
+    "fifth sixth seventh fourth";
+}
+#first {
+  grid-area: first;
+}
+#sec {
+  grid-area: second;
+}
+#third {
+  grid-area: third;
+}
+#fourth {
+  grid-area: fourth;
+}
+#fifth {
+  grid-area: fifth;
+}
+#six {
+  grid-area: sixth;
+}
+#seven {
+  grid-area: seventh;
+}
+h3 {
+  color: #565656;
+  padding-bottom: 1rem;
+}
